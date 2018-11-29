@@ -3,9 +3,7 @@ zuul:
     person-client:
       path: /pc/**
       serviceId: person-client
- 
-zuul:
-  routes:
     person-service:
       path: /ps/**
       serviceId: person-service 
+      
